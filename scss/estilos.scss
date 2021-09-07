@@ -1,0 +1,52 @@
+@import "../bootstrap-5.1.0/scss/bootstrap.scss";
+
+
+
+
+
+
+.h1__text__style{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    font-size: 100px;
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.logo__name__style{
+    transition: transform 0.5s;
+}
+.logo__name__style:hover{
+    transform: scale(1.3);
+}
+
+.card__image__style{
+    transition: transform 1.5s;
+}
+.card__image__style:hover{
+    transform: scale(1.1);
+}
+.card__footer__align{
+    vertical-align: middle;
+    text-align: center;
+}
+.img__contacto__style{
+    transition: transform 1.5s;
+}
+.img__contacto__style:hover{
+    transform: scale(1.1);
+}
+.send__button__style{
+    background-color: burlywood;
+    border-color: burlywood;
+}
+.send__button__style:hover{
+    background-color: tan;
+    border-color:tan;
+}
