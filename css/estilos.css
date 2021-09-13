@@ -7803,7 +7803,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.h1__text__style {
+.h1__text--style {
   animation-duration: 2s;
   animation-name: aparecer;
   font-size: 100px; }
@@ -7814,32 +7814,90 @@ textarea.form-control-lg {
   100% {
     opacity: 1; } }
 
-.logo__name__style {
+.logo__name--style {
   transition: transform 0.5s; }
 
-.logo__name__style:hover {
+.logo__name--style:hover {
   transform: scale(1.3); }
 
-.card__image__style {
+.card__image--style {
   transition: transform 1.5s; }
 
-.card__image__style:hover {
+.card__image--style:hover {
   transform: scale(1.1); }
 
-.card__footer__align {
+.card__footer--align {
   vertical-align: middle;
   text-align: center; }
 
-.img__contacto__style {
+.img__contacto--style {
   transition: transform 1.5s; }
 
-.img__contacto__style:hover {
+.img__contacto--style:hover {
   transform: scale(1.1); }
 
-.send__button__style {
+.send__button--style {
   background-color: burlywood;
   border-color: burlywood; }
 
-.send__button__style:hover {
+.send__button--style:hover {
   background-color: tan;
-  border-color:tan; }
+  border-color: tan; }
+
+.background__style--plantarg {
+  background: #FDDA0D; }
+
+.style--h3 {
+  font-size: 70px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px; }
+
+.style--plantarg {
+  font-size: 20px;
+  line-height: 30px;
+  width: 50%;
+  margin: auto; }
+
+.buttom__plant--style {
+  border: 3px solid black;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px; }
+
+.buttom__plant--style:hover {
+  background: #FDDA0D;
+  color: black; }
+
+.buttom__plant--align {
+  text-align: center; }
+
+.background__style--sustentables {
+  background: #2E8B57; }
+
+.style__sutentables--h3 {
+  font-size: 70px;
+  width: 50%;
+  margin-bottom: 50px; }
+
+.p__style--sust {
+  font-size: 20px;
+  line-height: 30px;
+  margin: auto; }
+
+.p__style--sust1 {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 30px; }
+
+.p__style--sust2 {
+  margin-top: 90px;
+  line-height: 30px;
+  text-align: center;
+  color: #2E8B57;
+  font-weight: bold;
+  font-size: 50px; }
