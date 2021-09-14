@@ -109,3 +109,25 @@
     font-weight: bold;
     font-size: 50px;
 }
+.img__style--vanitory{
+    transition: transform 1.5s;
+    margin-left: 100px;
+}
+.img__style--vanitory:hover{
+    transform: scale(1.1);
+}
+.img__style--muebles{
+float: left;
+margin-left: 170px;
+}
+.text__style--muebles{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 170px;
+    width: 50%;
+    margin: auto;
+}
+.padding__text--muebles{
+    padding-left: 40%;
+    vertical-align: center;
+}

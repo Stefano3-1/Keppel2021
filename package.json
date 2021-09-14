@@ -1,17 +1,21 @@
 {
-  "name": "proyectofinal---copia---copia",
+  "name": "keppel2021",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss mi_repositorio/scss/estilos.scss mi_repositorio/css/estilos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stefano3-1/keppel2021.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
-  }
+  "bugs": {
+    "url": "https://github.com/Stefano3-1/keppel2021/issues"
+  },
+  "homepage": "https://github.com/Stefano3-1/keppel2021#readme",
+  "description": ""
 }
